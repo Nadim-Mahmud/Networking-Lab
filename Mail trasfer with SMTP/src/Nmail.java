@@ -1,6 +1,6 @@
 import java.io.*;
 import java.net.*;
-class Client {
+class Nmail {
 
   public static void main(String argv[]) throws Exception
     {
