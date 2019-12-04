@@ -11,10 +11,10 @@ class Nmail {
          os.println("HELO " + "nadim");
          System.out.println( "Response1: " + br.readLine());
                 
-         os.println("MAIL FROM:"+ " bcd@nadim");
+         os.println("MAIL FROM: "+ "bcd@nadim");
          System.out.println( "Response2: " + br.readLine());
                 
-         os.println("RCPT TO:"+ " abc@nadim");
+         os.println("RCPT TO: "+ "abc@nadim");
          System.out.println( "Response3: " + br.readLine());
 
          os.println("DATA");
