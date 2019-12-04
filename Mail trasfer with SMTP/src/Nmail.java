@@ -26,10 +26,11 @@ class Nmail {
          os.println();
          os.println(".");
                 
-         System.out.println( "Response5: " + br.readLine());
-                         
-         os.println("QUIT");
+         System.out.println( "Response5: " + br.readLine());              
          System.out.println( "Response6: " + br.readLine());
+         
+         os.println("QUIT");
+         
          System.out.println( "Response7: " + br.readLine());
     }
 }
