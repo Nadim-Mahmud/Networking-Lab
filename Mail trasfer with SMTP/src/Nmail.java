@@ -11,6 +11,7 @@ class Nmail {
 
 
                 os.println("HELO " + "nadim");
+                System.out.println( "Response1: " + br.readLine());
                 
                 os.println("MAIL FROM:"+ " bcd@nadim");
                 System.out.println( "Response2: " + br.readLine());
@@ -32,8 +33,5 @@ class Nmail {
                 os.println("QUIT");
                 System.out.println( "Response6: " + br.readLine());
                 System.out.println( "Response7: " + br.readLine());
-
-
-
     }
 }
