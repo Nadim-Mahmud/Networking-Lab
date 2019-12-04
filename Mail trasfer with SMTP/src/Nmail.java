@@ -1,7 +1,6 @@
 import java.io.*;
 import java.net.*;
 class Nmail {
-
   public static void main(String argv[]) throws Exception{
 
          Socket s=new Socket("localhost",25);
